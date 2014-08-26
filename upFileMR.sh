@@ -13,7 +13,7 @@ function help {
     exit 1
 }
 
-
+#numero de argumentos
 argumentos=$#
 
 #si se introducen mal el numero de arguemntos                                                                   
