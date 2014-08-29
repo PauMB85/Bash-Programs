@@ -15,12 +15,14 @@ function help {
 
 argumentos=$#
 
-#si se entroducen mal los arguemntos                                                                            
+#si se entroducen mal el numero dearguemntos                                                                            
 if [ $argumentos -ne 1 ]; then
     help
 fi
 #asignamos argumentos                                                                                           
 dirSSH=$1
+
+#variable que nos india si se ha encontrado la maquina remota
 encontrado=0
 
 #buscamos la direccion remota                                                                                   
