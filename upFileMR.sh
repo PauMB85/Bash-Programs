@@ -24,6 +24,8 @@ fi
 #asignamos arguemntos                                                                                           
 dirSSH=$1
 file=$2
+
+#variable que se utiliza para indicar si se ha encontrado la maquina remota
 encontrado=0
 
 #buscamos la direccion remota                                                                                   
