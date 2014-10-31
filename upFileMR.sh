@@ -33,10 +33,12 @@ while IFS=: read nombre direccion passwd #se deja el passwd, si en un futuro
                                          #se emplea expect                                                      
 do
 
-    if [ $dirSSH = $nombre ];then  #esto es para debug                                                          
+    if [ $dirSSH = $nombre ];then 
+        #esto es para debug                                                          
         echo "Se trata de: $nombre"
         echo "su direccion es: $direccion"
         echo "con el passwd: $passwd"
+        #
         encontrado=1
         break
     fi
