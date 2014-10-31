@@ -30,10 +30,12 @@ while IFS=: read nombre direccion passwd #se deja el pass, si en un futuro se de
                                          #relaizar                                                              
 do
 
-    if [ $dirSSH = $nombre ]; then   #esto es para debug                                                        
+    if [ $dirSSH = $nombre ]; then   
+        #esto es para debug                                                        
         echo -e "Se trata de: $nombre                                                                           
                 \nsu direccion es: $direccion                                                                   
                 \ncon el passwd: $passwd"
+        #
         encontrado=1
         break
     fi
