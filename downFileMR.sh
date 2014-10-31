@@ -33,7 +33,8 @@ do
         #esto es para debug                                                          
         #echo "Se trata de: $nombre"                                                                              
         #echo "su direccion es: $dirSSH"                                                                          
-        #echo "con el passwd: $passwd"                                                                            
+        #echo "con el passwd: $passwd" 
+        #
         encontrado=1
         break
     fi
